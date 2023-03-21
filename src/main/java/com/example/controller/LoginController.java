@@ -75,11 +75,11 @@ public class LoginController {
             // Return response with header
 
 
-         /*   HttpRequest request = HttpRequest.newBuilder()
+            HttpRequest request = HttpRequest.newBuilder()
                     .GET()
                     .uri(new URI("http://localhost:8080/registration/login"))
                     .header("Authorization", token)
-                    .build();*/
+                    .build();
 
 
             return "redirect:/customer/showCustomer";
